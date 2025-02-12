@@ -24,7 +24,7 @@ function index() {
           <div class="card">
             <div class="card-body">
               <h5 class="card-title"><b>NoPrecinho</b></h5>
-              <p class="card-text">Sistema para comparar preços em diferentes mercados. Recursos ultilizados Node, React e Sql. Projeto feito para a entrega do TCC do curso tecnico</p>
+              <p class="card-text">Sistema para comparar preços em diferentes mercados. Recursos ultilizados Node, React e Sql. Projeto feito para a entrega do TCC do curso tecnico.</p>
               <img class="img-small" src={NP} alt="" />
               <a href="https://github.com/Caldeiraa/NPfinal" class="btn btn-primary" target="_blank">Ver Código</a>
               
@@ -35,7 +35,7 @@ function index() {
           <div class="card">
             <div class="card-body">
               <h5 class="card-title"><b>WMS-SENAI</b></h5>
-              <p class="card-text">WMS-Senai é um sistema desenvolvido em JAVA puro e o banco de dados MYSQL   </p>
+              <p class="card-text">WMS-Senai é um sistema logístico desenvolvido em Java e MySQL por uma equipe de pouco mais de 10 pessoas, focado no gerenciamento de armazéns. </p>
               <img class="img-small" src={wms} alt="" />
               <a href="https://github.com/Caldeiraa/WMS_SENAI" class="btn btn-primary" target="_blank">Ver Código</a>
               
@@ -48,7 +48,7 @@ function index() {
               <h5 class="card-title"><b>Portfolio</b></h5>
               <p class="card-text">Desenvolvido com HTML5, CSS3, JavaScript e React para apresentar meus projetos e habilidades em desenvolvimento web de forma moderna. </p>
               <img class="img-small" src={portfolio} alt="" />
-              <a href="https://github.com/Caldeiraa/WMS_SENAI" class="btn btn-primary" target="_blank">Ver Código</a>
+              <a href="https://github.com/Caldeiraa/portf-lio" class="btn btn-primary" target="_blank">Ver Código</a>
               
             </div>
           </div>
