@@ -1,0 +1,82 @@
+
+
+/* Definindo o fundo da página */
+body {
+  background-color: #c3c6d1; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para a navbar */
+
+/* Estilo para os itens da navbar */
+
+/* Estilo para os ícones */
+
+
+/* Container principal */
+.container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+/* Estilizando imagens */
+.col img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Layout das colunas */
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+/* Estilização das colunas */
+.col {
+  text-align: left;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.col h1 {
+  font-size: 22px;
+  color: black;
+  margin-top: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.col p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Ajuste de margens */
+.d-flex {
+  margin-left: 80%;
+}
+
+.e-flex {
+  margin: 50px;
+  margin-right: 20px;
+  
+}

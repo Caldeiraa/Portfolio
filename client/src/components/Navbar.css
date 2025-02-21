@@ -1,0 +1,63 @@
+/* Navbar principal */
+.navbar {
+  background-color: #566cd1;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+/* Container da navbar */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Links da navbar */
+.nav-link {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+/* Ícones dos links sociais na navbar normal */
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-links a {
+  font-size: 30px; /* Ícones grandes na navbar normal */
+  color: white;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.social-links a:hover {
+  color: #ffd700;
+  transform: scale(1.1);
+}
+
+/* Ajuste para o menu hambúrguer */
+@media (max-width: 992px) {
+  .navbar-collapse {
+      background-color: #566cd1; /* Fundo para destacar os links no menu */
+      padding: 10px;
+      border-radius: 10px;
+  }
+
+  /* Centraliza os links sociais no menu hambúrguer */
+  .social-links {
+      justify-content: center;
+      margin-top: 10px;
+  }
+
+  .social-links a {
+      font-size: 20px; /* Ícones menores no menu hambúrguer */
+  }
+}

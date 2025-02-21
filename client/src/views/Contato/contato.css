@@ -1,0 +1,70 @@
+/* Estilização principal do container */
+.quadrado {
+    width: 60%;
+    max-width: 600px; /* Evita que fique muito grande em telas grandes */
+    height: auto;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 85px auto; /* Centraliza horizontalmente */
+}
+
+/* Estilo da seção de contatos */
+.contatos {
+    color: black;
+    text-align: left;
+}
+
+.contatos h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Remove os marcadores da lista */
+.contatos ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Ajusta os itens da lista */
+.contatos li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estiliza os links */
+.contatos a {
+    color: #0077b5;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.contatos a:hover {
+    color: #005582;
+    text-decoration: underline;
+}
+
+/* 📱 Responsividade */
+@media (max-width: 768px) {
+    .quadrado {
+        width: 90%; /* Aumenta a largura no mobile */
+        margin: 50px auto;
+        padding: 15px;
+    }
+
+    .contatos li {
+        font-size: 16px; /* Reduz a fonte no mobile */
+    }
+
+    .contatos h2 {
+        font-size: 22px;
+    }
+}
